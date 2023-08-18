@@ -91,7 +91,7 @@ Finally, Scrumage supports **learning how to learn**, the **single most importan
 |------|---------|-------------|
 | 1    | Logic, Sets, Languages |  Problem set |
 | 2    | Regular expressions and deterministic finite automata   | Problem set |
-| 3    | Regular expressions 2: NDAs and the Pumping Lemma | Problem set |
+| 3    | Regular expressions 2: NDFAs and the Pumping Lemma | Problem set |
 | 4    | Programming languages: lexical analysis and grammars | Lexical analyzer |
 | 5    | Programming languages 2: parsing and interpretation  | Parser |
 | 6    | Turing machines and undecidability | Problem set?|

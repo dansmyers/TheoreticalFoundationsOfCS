@@ -14,6 +14,7 @@ The goal of our first unit is to review key background material on discrete math
 - Operations on sets: union, intersection, difference
 - Binary and hexadecimal numbers; conversions between bases
 - Bitwise operators
+- Predicates and quantifiers
 - *Languages* in theoretical CS, which we'll return to repeatedly throughout the semester
 
 
@@ -23,10 +24,12 @@ Complete the problems in the `Deliverables.md` file. Put all of your solutions i
 
 ## Resources
 
+*Foundations of Computation*, sections 1.1-1.2, 2.1-2.3, and a little bit of 2.4 (cross product). This will be your main book throughout the semester. Use this sprint to practice reading the text and getting familiar with the notation and how the theoretical results are described.
 
-# Resources:  
-I may add to these as we go through the sprint.
-   - FoC - 1.1-1.2, 2.1-2.3, and a little bit of 2.4 (cross product) 
+**Read slowly** and make notes to yourself as you go. Open a plain document write short summaries in casual language; focus on re-explaining the concepts in your own words. Don't "take notes" by just copying down definitions and theorems from the book: that approach does nothing to build your understanding. I recommend looking at the questions early to mentally prime yourself for reading &ndash; what concepts are important?
+
+Here are some other resources that may be helpful:
+ 
    - [Tutorial Point series on Discrete Math](https://www.tutorialspoint.com/discrete_mathematics/discrete_mathematics_introduction.htm) (up through section on Propositional Logic).
    - [Overview of Scrum workflow](https://www.youtube.com/watch?time_continue=5&v=gy1c4_YixCo) (YouTube, 2min)
    - [How to draw truth tables](https://docs.google.com/presentation/d/1NTgXBIC98R6yaCiDlf7gotO1NChB8LhzHTOwNvkOrgs/edit#slide=id.p) slide deck

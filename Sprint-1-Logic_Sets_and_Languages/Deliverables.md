@@ -17,6 +17,10 @@ Let *h* = "Maria is healthy", *w* = "Maria is wealthy", and *z* = "Maria is wise
 Draw a truth table for each of the following statements:
 
 - *p* ∧ ¬*q*
+- *p* ∨ (*q* ∧ ¬*r*)
+- ¬(*p* ∧ *q*)
+- *p* ∧ ¬(*q* → *r*)
+- (*p* → (*q* → *r*)) ↔ ((*p* ∧ *q*) → *r*
 
 
 

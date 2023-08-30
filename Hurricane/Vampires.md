@@ -4,7 +4,7 @@
 
 </br>
 
-This special hurrican-edition micro-assignment is adapted from Raymond Smullyan's *The Riddle of Dracula*.
+This special hurricane-edition micro-assignment is adapted from Raymond Smullyan's *The Riddle of Dracula*.
 
 ## The Setting
 

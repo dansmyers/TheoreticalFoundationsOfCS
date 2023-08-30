@@ -1,6 +1,6 @@
 # Insane Logical Vampires
 
-<img src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/21f74385e55a83c580e0dbd37efa15ee3639ef48592574819ee995d11375de6b_1.jpg" width="50%" />
+<img src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/21f74385e55a83c580e0dbd37efa15ee3639ef48592574819ee995d11375de6b_1.jpg" width="33%" />
 
 </br>
 

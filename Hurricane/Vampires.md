@@ -52,3 +52,5 @@ For example, if I asked a Ruritanian, "Is the sky blue?", there are four possibi
 
 ## To be continued?
 
+<img src="https://i.pinimg.com/originals/ce/7d/3a/ce7d3abe14fb5cfadc5a797b50a6a036.jpg" width="33%"/>
+

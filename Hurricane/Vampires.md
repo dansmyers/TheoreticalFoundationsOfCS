@@ -8,7 +8,11 @@ This special hurrican-edition micro-assignment is adapted from Raymond Smullyan'
 
 ## The Setting
 
-At one time I was vacationing in the tiny European principality of Ruritania when a shocking rumor reached my ears: that Count Dracula had somehow escaped his climactic confrontation with Dr. Van Helsing and was now residing within a castle somewhere in the land I was now visiting! I decided that the fate of many souls, perhaps the entire world, depended on discovering the truth of this matter.
+<img src="https://i1.sndcdn.com/artworks-000192087652-xnuxmw-t500x500.jpg" width="33%" />
+
+</br>
+
+At one time I was vacationing in the tiny European principality of [Ruritania](https://tvtropes.org/pmwiki/pmwiki.php/Literature/ThePrisonerOfZenda) when a shocking rumor reached my ears: Count Dracula had somehow escaped his confrontation with Dr. Van Helsing and was unalive and residing in his castle somewhere in the country! I decided that the fate of many souls, perhaps the entire world, depended on discovering the truth of this matter.
 
 However, I quickly ran into a problem when I attempted to gather information concerning the Count's existence. Ruritania, you see, was populated by both humans and vampires:
 
@@ -19,10 +23,10 @@ This did not concern me, because I've seen the 1986 movie *Labyrinth* (starring 
 
 Challenges increased, however, when I discovered a second fact: some inhabitants of Ruritania are sane, and believe what is real, and some are *insane*, and believe the opposite of whatever is real. There are therefore four kinds of Ruritanians:
 
-- Sane humans, who believe what is real and tell the truth about what they believe
-- Insane humans, who believe the opposite of what is real, but truthfully state their (incorrect) beliefs
-- Sane vampires, who believe real things, but then lie about what they believe
-- Insane vampires, who believe only incorrect things, but then lie about what they believe
+1. **Sane humans**, who believe what is real and tell the truth about what they believe
+2. **Insane humans**, who believe the opposite of what is real, but truthfully state their (incorrect) beliefs
+3. **Sane vampires**, who believe real things, but then lie about what they believe
+4. **Insane vampires**, who believe only incorrect things, but then lie about what they believe
 
 For example, if I asked a Ruritanian, "Is the sky blue?", there are four possibilities:
 

@@ -1,10 +1,10 @@
-# Insane Logical Vampires
+# Logical Insane Vampires
 
 <img src="https://imageproxy.ifunny.co/crop:x-20,resize:640x,quality:90x75/images/21f74385e55a83c580e0dbd37efa15ee3639ef48592574819ee995d11375de6b_1.jpg" width="33%" />
 
 </br>
 
-This micro-assignment is adapted from Raymond Smullyan's *The Riddle of Dracula*. I have changed the setting to the fictional principality of Ruritania to avoid perpetuating the harmful stereotype that Transylvania is populated by insane vampires.
+This special hurrican-edition micro-assignment is adapted from Raymond Smullyan's *The Riddle of Dracula*.
 
 ## The Setting
 

@@ -74,5 +74,5 @@ Q3 | Q3     Q1
 
 4. Write a regular expression for that set.
 
-5. Implement a Python program with a function called `recognize` that takes a string as input, iterates through the state model using the characters in the string, and returns `True` if the string is accepted and `False` otherwise. 
+5. Implement a Python program with a function called `recognize` that takes a string as input, iterates through the state model using the characters in the string, and returns `True` if the string is accepted and `False` otherwise. Test your function on the examples in question 2.
 

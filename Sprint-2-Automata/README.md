@@ -1,5 +1,7 @@
 # Deterministic Finite Automata
 
+## Due Friday, 9/22
+
 We've spent the last few classes practicing working with DFAs. The goal of this assignment is to allow you to further practice working with these models, in preparation for our next unit, which will cover *non-deterministic* finite automata and the Pumping Lemma.
 
 Review **Chapter 3** in the online text (the link is in the front-page syllabus).

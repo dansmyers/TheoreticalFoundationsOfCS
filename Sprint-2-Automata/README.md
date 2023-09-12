@@ -38,7 +38,7 @@ Complete the `grep` lab in this directory if you haven't done so, then write reg
 
 Design DFAs to recognize the following languages over {*a*, *b*}.
 
-1. All strings with 0 or 1 *b*, but not more than 1.
+1. All strings with zero or one *b*, but not more than one.
 
 2. All strings that contain the substring *abba*.
 

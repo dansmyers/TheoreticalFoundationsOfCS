@@ -46,7 +46,7 @@ Design DFAs to recognize the following languages over {*a*, *b*}.
 
 3. All strings that contain more than two *a*'s and more than two *b*'s.
 
-4. All strings that contain both *ab* and *ba* as substrings. The two substrings don't have to be consecutive.
+4. All strings that contain both *ab* and *ba* as substrings. The two substrings don't have to be consecutive. Assume that the same *b* doesn't appear in both substrings.
 
 5. The number of *a*'s plus the number of *b*'s is even.
 

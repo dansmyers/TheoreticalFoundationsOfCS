@@ -2,6 +2,8 @@
 
 We've spent the last few classes practicing working with DFAs. The goal of this assignment is to allow you to further practice working with these models, in preparation for our next unit, which will cover *non-deterministic* finite automata and the Pumping Lemma.
 
+Review **Chapter 3** in the online text (the link is in the front-page syllabus).
+
 ## Submission
 
 Make an account on replit.com if you haven't done so. I will send you a link to join the class workspace there, where you'll find a workspace for Assignment 2.
@@ -45,6 +47,10 @@ Design DFAs to recognize the following languages over {*a*, *b*}.
 3. All strings that contain more than two *a*'s and more than two *b*'s.
 
 4. All strings that contain both *ab* and *ba* as substrings. The two substrings don't have to be consecutive.
+
+5. The number of *a*'s plus the number of *b*'s is even.
+
+6. *aa*\* | *aba*\**b*\*
 
 ### Formalities
 

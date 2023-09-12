@@ -1,6 +1,6 @@
 # Regular Expressions
 
-<img src="https://imgs.xkcd.com/comics/perl_problems_2x.png" width="50%" />
+<img src="https://imgs.xkcd.com/comics/perl_problems_2x.png" width="66%" />
 
 This short lab will let you practice using regular expressions with `grep`, a standard Unix program for searching files.
 

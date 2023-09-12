@@ -89,7 +89,7 @@ characters in the set:
     
 - `[^a-z]` is the set of all characters *except* the lowercase letters
     
-This is tricky! The `^` symbol has two different meanings depending on how you use it. *Outside* the square braces it signifies the beginning of the line; *inside* the braces it represents the 
+This is tricky! The `^` symbol has two different meanings depending on how you use it. *Outside* the square braces it signifies the beginning of the line; *inside* the braces it represents an excluded character set.
 
 Find all the words that contain characters other than a normal lowercase or uppercase letter:
 
@@ -103,15 +103,15 @@ prompt$ grep "[^a-zA-Z]" words.txt
 
 Use `*` to match 0 or more instances of a pattern. This is often combined with `.` as a generic placeholder that can match any character. `.*` is therefore a wildcard that matches any number (including zero) of arbitrary characters.
 
-Find the words of any length that start with `q` and end with `ing`:
+Find the words of any length that start with `q` and end with `ing`. This example shows off using both `^` and `$` to match the beginning and ending of a line, with arbitrary characters in between:
 
 ```
-prompt$ grep "^q.*ing$" /usr/share/dict/american-english-large
+grep "^q.*ing$" words.txt
 ```
 
-**I'm thinking of a word that starts with `he` and ends with `he`. What could it be?**
+**Question: I'm thinking of a word that starts with `he` and ends with `he`. What could it be?**
 
-**Find all the words that contain no vowels. Hint: use `^` and `$` to specify that the entire line must have no vowels.**
+**Question: Find all the words that contain no vowels. Hint: use `^` and `$` to specify that the entire line must have no vowels.**
 
 ### Repeating
 
@@ -123,62 +123,58 @@ backslash escape prefix.
 Find all the words with 4 vowels:
 
 ```
-prompt$ grep "[aeiou]\{4\}" /usr/share/dict/american-english-large
+grep "[aeiou]\{4\}" words.txt
 ```
 
-**Find all the words with 5 consecutive consonants.**
-
-**Find the words with the most consecutive consonants by trying larger values of `n`.**
+**Question: Find all the words with 5 consecutive consonants, then find the words with the most consecutive consonants by trying larger values of `n`.**
 
 ### Union
 
-Use `\|` to match one of a set of options. Again, the use of the `\` is obnoxious. Sorry, not sorry.
-
-Find all the words that start or end with `x`:
+Use `\|` to match one of a set of options. Again, the use of the `\` is obnoxious. Find all the words that start or end with `x`:
 
 ```
-prompt$ grep "^x\|x$" /usr/share/dict/american-english-large
+grep "^x\|x$" words.txt
 ```
 
 Parentheses `\(` and `\)` can be used to group expressions. For example, to match all words starting with either `aa` or `ee`:
 
 ```
-prompt$ grep "^\(aa\|ee\)" /usr/share/dict/american-english-large
+grep "^\(aa\|ee\)" words.txt
 ```
 
 ### Pain
 
 Here's one last advanced regex feature. If you enclose a pattern in parentheses, the string that matches that pattern is said to
 be "captured". The evaluator will keep track of the captured pattern in case you want to refer to it later, which you can do using 
-`\1`.
-
-For example, match any words having double letters:
+`\1`. For example, match any words having double letters:
 
 ```
-prompt$ grep "\(.\)\1" /usr/share/dict/american-english-large
+grep "\(.\)\1" words.txt
 ```
 
 The parentheses grouping `\(.\)` matches any character. The `\1` then requires the analyzer to match whatever character was captured
-during the evaluation of the parenthesis expression.
-
-Note that this could not be acheived by using `[a-z]\{2\}`. Try it out if you're unsure why.
+during the evaluation of the parenthesis expression. Note that this could not be acheived by using `[a-z]\{2\}`. Try it out if you're unsure why.
 
 What if we wanted to match words with consecutive pairs of double letters? Use a second pair of parentheses to capture a second letter, 
 then match it a second time with `\2`:
 
 ```
-prompt$ grep "\(.\)\1\(.\)\2" /usr/share/dict/american-english-large
+grep "\(.\)\1\(.\)\2"
 ```
 
 I'm thinking of a word that has three consecutive pairs of double letters:
 
 ```
-prompt$ grep "\(.\)\1\(.\)\2\(.\)\3" /usr/share/dict/american-english-large
+grep "\(.\)\1\(.\)\2\(.\)\3"
 ```
 
 This example also illustrates how the regex evaluators contained in real programming environments are more powerful than the default
 theoretical model of regular expressions, which assumed that we had no available memory for elements of the string and therefore
 couldn't keep track of anything.
+
+**Question: Print all the words in the list that contain a doubled vowel.**
+
+**Question: Are there any words in the list that have the same letter occurring three times in a row?***
 
 ## Wrap-Up
 
@@ -186,7 +182,6 @@ This is really just a cursory overview of the features of `grep` and regular exp
 
 - I do not expect you to memorize the syntax for regular expressions.
     
-- There are actually a few different syntaxes in circulation; the Perl language has its own built-in regex evaluator with its own 
-    syntax.
+- There are actually a few different syntaxes in circulation; the Perl language has its own built-in regex evaluator with its own syntax.
     
 - The general answer to questions about pattern matching, substring replacement, etc. is "Use 'grep' and regular expressions."

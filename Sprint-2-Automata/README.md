@@ -4,7 +4,7 @@ We've spent the last few classes practicing working with DFAs. The goal of this 
 
 ## Submission
 
-Make an account on replit.com if you haven't done so. I will send you a link to join the class workspace there, where you'll find a workspace created for this assignment.
+Make an account on replit.com if you haven't done so. I will send you a link to join the class workspace there, where you'll find a workspace for Assignment 2.
 
 Use that workspace to complete the programming portions of the assignment. Upload your answers to the written questions into the workspace. Submit the workspace, using the button in the upper-right corner, when you're done.
 

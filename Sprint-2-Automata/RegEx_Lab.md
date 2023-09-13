@@ -96,7 +96,7 @@ This is tricky! The `^` symbol has two different meanings depending on how you u
 Find all the words that contain characters other than a normal lowercase or uppercase letter:
 
 ```
-prompt$ grep "[^a-zA-Z]" words.txt
+grep "[^a-zA-Z]" words.txt
 ```
     
 **Question: Find all the words that start with `q` but not `qu` using the exclusionary character set approach**.

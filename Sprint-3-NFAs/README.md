@@ -29,10 +29,10 @@ Tips:
 
 Use the NFA construction algorithm to build machines that recognize the following regular expressions. You don't have to perform any simplification of the resulting NFAs.
 
-1. *a*<sup>*</sup>*b*<sup>*</sup>
+1. *a*<sup>\*</sup>*b*<sup>\*</sup>
 
 2. (*aa* | *bb*) (*ab* | *ba*)
 
-3. *a* *b*<sup>*</sup> *a* *b*<sup>*</sup>
+3. *a* *b*<sup>\*</sup> *a* *b*<sup>\*</sup>
 
-4. (*a*|*b*)<sup>*</sup> | (*c*|*d*)<sup>*</sup>
+4. (*a*|*b*)<sup>\*</sup> | (*c*|*d*)<sup>\*</sup>

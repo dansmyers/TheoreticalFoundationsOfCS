@@ -25,6 +25,7 @@ Tips:
 
 - Then find one specific value of *m* that makes *x* *y*<sup>*m*</sup> *z* not part of the language. This is the contradiction that you need to show that *s* cannot be pumped.
 
+
 ## Construction
 
 Use the NFA construction algorithm to build machines that recognize the following regular expressions. You don't have to perform any simplification of the resulting NFAs.
@@ -36,3 +37,33 @@ Use the NFA construction algorithm to build machines that recognize the followin
 3. *a* *b*<sup>\*</sup> *a* *b*<sup>\*</sup>
 
 4. (*a*|*b*)<sup>\*</sup> | (*c*|*d*)<sup>\*</sup>
+
+
+# Exam Review
+
+The exam will be 50 minutes and consist of 5-7 short answer questions. All questions will be worth the same number of points. Remember that, under the course grading system, you only need to earn a score above 80% to get full credit and above 60% to get partial credit.
+
+You should be familiar with the following:
+
+Logic stuff:
+
+- Using truth tables to show that logical expressions are equivalent. In particular, make sure you can work with conditional and biconditional statements and the XOR operator.
+- We did more background stuff on logic and sets, etc., but I don't plan to ask any questions about set notation, number formats, or the other topics from Assignment 1.
+
+DFA stuff:
+
+- Given a DFA, describe the set of strings it recognizes.
+- Given a DFA, write its formal definition and transition table, and vice-versa.
+- Given a regular language, draw out a DFA that recognizes that regular expression.
+
+NFA stuff:
+
+- Given an NFA, show that it does or does not accept a given input string.
+- Construct an NFA from a regular expression using the mechanical approach.
+- I **won't** ask you to do a NFA-to-DFA conversion on the exam.
+
+Pumping Lemma:
+
+- I **will not**  ask you to do a full proof on the exam.
+- I *might* give you a description of a language and a candidate a string, then ask you to show how to divide that string into *x*, *y*, and *z* parts to show that it can be pumped.
+- I also might give you a candidate string and ask you to give a contradiction showing that it can't be pumped.

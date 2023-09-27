@@ -43,7 +43,7 @@ Use the NFA construction algorithm to build machines that recognize the followin
 
 Convert the following NFA into an equivalent DFA.
 
-<img src="nfa.png" width="50%" />
+<img src="nfa.jpg" width="50%" />
 
 # Exam Review
 

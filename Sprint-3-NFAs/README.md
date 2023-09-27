@@ -39,6 +39,12 @@ Use the NFA construction algorithm to build machines that recognize the followin
 4. (*a*|*b*)<sup>\*</sup> | (*c*|*d*)<sup>\*</sup>
 
 
+## Conversion
+
+Convert the following NFA into an equivalent DFA.
+
+<img src="nfa.png" width="50%" />
+
 # Exam Review
 
 The exam will be 50 minutes and consist of 5-7 short answer questions. All questions will be worth the same number of points. Remember that, under the course grading system, you only need to earn a score above 80% to get full credit and above 60% to get partial credit.

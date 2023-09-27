@@ -45,6 +45,18 @@ Convert the following NFA into an equivalent DFA.
 
 <img src="nfa.jpg" width="30%" />
 
+Tips:
+
+- Work step by step. Start by identiying the set of states, then all subsets of states.
+
+- Determine which sets of states are starting and accepting.
+
+- Then write down the NFA transition table.
+
+- Use the NFA table to determine the transition table for the corresponding DFA.
+
+- Draw out the full DFA model, then prune unused states.
+
 # Exam Review
 
 The exam will be 50 minutes and consist of 5-7 short answer questions. All questions will be worth the same number of points. Remember that, under the course grading system, you only need to earn a score above 80% to get full credit and above 60% to get partial credit.

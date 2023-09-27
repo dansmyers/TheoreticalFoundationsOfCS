@@ -48,13 +48,9 @@ Convert the following NFA into an equivalent DFA.
 Tips:
 
 - Work step by step. Start by identiying the set of states, then all subsets of states.
-
 - Determine which sets of states are starting and accepting.
-
 - Then write down the NFA transition table.
-
 - Use the NFA table to determine the transition table for the corresponding DFA.
-
 - Draw out the full DFA model, then prune unused states.
 
 # Exam Review

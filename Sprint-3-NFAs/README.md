@@ -69,15 +69,17 @@ DFA stuff:
 - Given a DFA, describe the set of strings it recognizes.
 - Given a DFA, write its formal definition and transition table, and vice-versa.
 - Given a regular language, draw out a DFA that recognizes that regular expression.
+- Review the relevant sections in the book for examples and practice questions.
 
 NFA stuff:
 
 - Given an NFA, show that it does or does not accept a given input string.
 - Construct an NFA from a regular expression using the mechanical approach.
 - I **won't** ask you to do a NFA-to-DFA conversion on the exam.
+- Again, review the relevant sections in the book for practice.
 
 Pumping Lemma:
 
 - I **will not**  ask you to do a full proof on the exam.
-- I *might* give you a description of a language and a candidate a string, then ask you to show how to divide that string into *x*, *y*, and *z* parts to show that it can be pumped.
+- I *might* give you a description of a language and a candidate string, then ask you to divide that string into *x*, *y*, and *z* parts to show that it can be pumped.
 - I also might give you a candidate string and ask you to give a contradiction showing that it can't be pumped.

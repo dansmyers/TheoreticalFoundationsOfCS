@@ -25,6 +25,6 @@ Argue, based on the rules of the lemma, that your chosen string can't be pumped.
 
 Remember that you only need to find one counterexample.
 
-## Step 4
+### Step 4
 
 "This is a contradiction! If *L* really is regular, then evert string with length *n* or greater can be pumped, but we've shown that there is at least one string that violates the Pumping Lemma. Therefore, our original assumption was false and *L* can't be regular."

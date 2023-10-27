@@ -2,6 +2,8 @@
 
 ## Due November 10
 
+## You can work with a partner to complete this project
+
 ## Overview
 
 We've spent the last couple of weeks working through some of the theory and tools of programming languages. In this project, you're going to use what you've learned to implement a lexical analyzer and parser for a small example programming language.

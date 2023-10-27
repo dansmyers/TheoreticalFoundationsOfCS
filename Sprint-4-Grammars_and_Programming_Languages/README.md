@@ -38,6 +38,8 @@ Here's a grammar for the tiny language that we're going to be using for this pro
 - Curly braces indicate 0 or more copies of a statement
 - Square brackets indicate 0 or 1 copies of a statement
 
+Read this carefully! It looks long, but it's very similar to the previous examples we saw in class.
+
 ```
 Program --> 'program' Name ':' Block 'end'
 
@@ -78,6 +80,19 @@ Factor --> '-' Factor
 Atom --> Name
          | Number
          | '(' Expression ')'
+```
+
+
+Here's an example program written in this language:
+
+```
+program test4:
+  x := 10
+  while x > 0:
+    print x
+    x := x - 1
+  end
+end
 ```
 
 ## Lexical Analyzer

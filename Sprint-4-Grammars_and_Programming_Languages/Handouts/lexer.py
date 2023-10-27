@@ -1,4 +1,6 @@
-# Implement a basic lexical analyzer
+"""
+Basic lexical analyzer we wrote in class
+"""
 
 # Create a class to represent a token
 #
@@ -26,7 +28,7 @@ def analyze(s):
 
   next = 0
   while next < len(s):
-    if s[next] == ' ':
+    if s[next].isspace():
       next += 1
 
     elif s[next] == '=':
@@ -69,7 +71,22 @@ def analyze(s):
       tokens.append(Token('DIVIDE'))
       next += 1  
 
+    elif s[next] == ':':
+      if next < len(s) - 1 and s[next + 1] == '=':
+        tokens.append(Token('ASSIGN'))
+        next += 2
+      else:
+        tokens.append(Token('COLON'))
+        next += 1
     
+    elif s[next] == '(':
+      tokens.append(Token('LPAREN'))
+      next += 1
+
+    elif s[next] == ')':
+      tokens.append(Token('RPAREN'))
+      next += 1
+        
     elif s[next].isalpha():
       # Recognize identifiers
       identifier = s[next]
@@ -87,8 +104,20 @@ def analyze(s):
         tokens.append(Token('ELSE'))
       elif identifier == 'while':
         tokens.append(Token('WHILE'))
+      elif identifier == 'program':
+        tokens.append(Token('PROGRAM'))
+      elif identifier == 'end':
+        tokens.append(Token('END'))
+      elif identifier == 'for':
+        tokens.append(Token('FOR'))
+      elif identifier == 'to':
+        tokens.append(Token('TO'))
+      elif identifier == 'print':
+        tokens.append(Token('PRINT'))
+      elif identifier == 'input':
+        tokens.append(Token('INPUT'))
       else:
-        tokens.append(Token('IDENTIFIER', identifier))
+        tokens.append(Token('NAME', identifier))
       
     # Add a case to check for numbers
     # Add a NUMBER token, made from a sequence of 0-9 characters
@@ -103,15 +132,14 @@ def analyze(s):
       tokens.append(Token('NUMBER', int(number)))
       
   return tokens
+    
 
-if __name__ == 'main':
-  """
-  This code runs if lexer.py is the entry point for the program
-  It doesn't run if lexer is imported from another file
+### Main
 
-  Standard strategy: put test code in a block like this
-  """
-
-  tokens = analyze('x = 2 * y + 1')
+# Add a block of code that can be used to test the lexer by itself
+if __name__ == '__main__':
+  # Open test file and read it into a string
+  s = open('test.pl').read()
+  tokens = analyze(s)
   for t in tokens:
     print(t)

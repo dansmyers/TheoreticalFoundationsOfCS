@@ -13,8 +13,9 @@ The general interpretation strategy, discussed in more detail below, is to use t
 For this project, you need to implement the following features:
 
 - `input` and `print` statements
-- variable assignments using the symbol table, discussed in more detail below
-- evaluating arithmetic expressions
+- Variable assignments using the symbol table, discussed in more detail below
+- Evaluating arithmetic expressions
+- Write three more test programs of your own and modify the `main` section to read the program name from the command line, as in Assignment 4
 
 You don't need to implement `if`, `while, or `for` statements. Those will be the goal of the second challenge project.
 

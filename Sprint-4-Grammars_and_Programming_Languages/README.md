@@ -14,14 +14,14 @@ Use the workspace on Repl.it:
 
 - Complete `lexer.py` and `parser.py` according to the details below.
   
-- Both are set up to take a file name as a command-line input for testing. For example, to run the parser on `test.pl`, use
+- Both are set up to take a file name as a command-line input for testing. For example, to run the parser on `test1.p`, use
 ```
-python3 parser.py test.pl
+python3 parser.py test1.p
 ```
 
 - I've given you five test programs you can use to incrementally develop the parser.
 
-- Write three more example programs that show three different failure examples. Name your programs `error1.pl`, `error2.pl`, and `error3.pl`.
+- Write three more example programs that show three different failure examples. Name your programs `error1.p`, `error2.p`, and `error3.p`.
 
 
 ## AI Guidelines

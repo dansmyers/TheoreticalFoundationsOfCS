@@ -74,7 +74,7 @@ Condition --> Expression RelOp Expression
 
 Expression --> Term [('+' | '-') Expression]
 
-Term --> Factor [('*' | '/') MultExpr]
+Term --> Factor [('*' | '/') Term]
 
 Factor --> '-' Factor
            | Atom

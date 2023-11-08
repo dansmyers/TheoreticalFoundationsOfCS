@@ -68,7 +68,7 @@ WhileStatement --> 'while' Condition ':' Block 'end'
 
 RelOp --> '=' | '<>' | '>' | '<' | '>=' | '<='
 
-ForStatement --> 'for' '(' Name ':=' Expression 'to' Expression ')' Statement
+ForStatement --> 'for' '(' Name ':=' Expression 'to' Expression ')' Block
 
 Condition --> Expression RelOp Expression
 

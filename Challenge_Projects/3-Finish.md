@@ -1,4 +1,4 @@
-## Challenge Project 3: Finish the Interpreter
+# Challenge Project 3: Finish the Interpreter
 
 ## Due 12/8
 

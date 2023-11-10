@@ -1,4 +1,4 @@
-# Challenge Project 2: Conditions
+# Challenge Project 2: Conditional Execution
 
 ## Due 12/8
 

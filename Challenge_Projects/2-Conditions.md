@@ -1,4 +1,4 @@
-# Challenge Project 2: Conditions and Loops
+# Challenge Project 2: Conditions
 
 ## Due 12/8
 

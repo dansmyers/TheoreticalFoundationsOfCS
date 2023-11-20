@@ -2,6 +2,10 @@
 
 ## Due 12/1
 
+<img src="https://m.media-amazon.com/images/I/91qvibWsS+L._AC_SX679_.jpg" width="50%" />
+
+*I searched for "Touring machine" and the first result was for this $1400 Big Rock Show fog machine*.
+
 ## Overview
 
 This is a *short* assignment to hit some of the concepts we've covered in the last week of class. Read [this article](https://www.scottaaronson.com/writings/bignumbers.html) by theoretical computer scientist Scott Aaronson about really big numbers. It touches on many of the concepts we've been exploring recently. Then answer the following questions. Put your answers in a text file and upload them to the assignment I'll create on Canvas.

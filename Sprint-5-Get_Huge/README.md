@@ -4,7 +4,7 @@
 
 <img src="https://m.media-amazon.com/images/I/91qvibWsS+L._AC_SX679_.jpg" width="50%" />
 
-*I searched for "Touring machine" and the first result was for this $1400 Big Rock Show fog machine*.
+*I searched for "Touring machine" and the first result was for this $1400 rock concert fog machine*.
 
 ## Overview
 
